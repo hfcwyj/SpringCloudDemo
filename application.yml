@@ -1,0 +1,17 @@
+server:
+  port: 8890
+spring:
+  application:
+    name: consulclient8890
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+    config:
+      server:
+        git:
+          uri: https://github.com/hfcwyj/SpringCloudDemo.git
+          default-label: master
+          username: 1050982034@qq.com
+          password: h98765+01234
+          skip-ssl-validation: true
